@@ -412,9 +412,8 @@ It contains explanation, code snippets and outputs related to the Python \textbf
 For any question or remark please email me or send a request throught my github.
 
     
-    \section{Random Module in Python}\label{random-module-in-python}
 
-\subsection{What is the Random Module?}\label{what-is-the-random-module}
+\section{What is the Random Module?}\label{what-is-the-random-module}
 
 The random module in Python is like a magic toolbox that helps you work
 with randomness! It allows you to create random numbers, pick random
@@ -442,7 +441,7 @@ thing you need, and it does the job for you.
 1
     \end{Verbatim}
 
-    \subsection{Why Use the random Module?}\label{why-use-the-random-module}
+    \section{Why Use the random Module?}\label{why-use-the-random-module}
 
 The random module is super handy whenever you need a little
 unpredictability in your code. It's like having a surprise button! You
@@ -458,10 +457,10 @@ or predicting weather patterns. The random module helps create that
 Whether it's a random password, a number for testing, or even random
 colors for an art project, this module does it all.
 
-    \subsection{Tips \& Tricks for the random
+    \section{Tips \& Tricks for the random
 Module}\label{tips-tricks-for-the-random-module}
 
-\subsubsection{1. random.seed() for Repeatable
+\subsection{random.seed() for Repeatable
 Results}\label{random.seed-for-repeatable-results}
 
 If you need the same ``random'' results every time (for testing), use
@@ -480,7 +479,7 @@ If you need the same ``random'' results every time (for testing), use
 3
     \end{Verbatim}
 
-    \subsubsection{2. random.uniform() for
+    \subsection{random.uniform() for
 Decimals}\label{random.uniform-for-decimals}
 
 Need a random decimal between two numbers? Use random.uniform()!
@@ -497,11 +496,9 @@ Need a random decimal between two numbers? Use random.uniform()!
 4.043849779650302
     \end{Verbatim}
 
-    \subsubsection{3. random.sample() to Pick Multiple
-Items}\label{random.sample-to-pick-multiple-items}
+    \subsection{random.sample() to Pick Multiple Items}\label{random.sample-to-pick-multiple-items}
 
-Want to pick multiple random items without repeating? Use
-random.sample().
+Want to pick multiple random items without repeating? Use random.sample().
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{43}{\boxspacing}
@@ -516,10 +513,10 @@ random.sample().
 ['Bob', 'Alice']
     \end{Verbatim}
 
-    \subsection{Basic Functions of the random
+    \section{Basic Functions of the random
 Module}\label{basic-functions-of-the-random-module}
 
-\subsubsection{1. random.randint(a, b)}\label{random.randinta-b}
+\subsection{random.randint(a, b)}\label{random.randinta-b}
 
 This gives you a random number between a and b (including both). It's
 like rolling a dice where you can choose the range of numbers.
@@ -538,7 +535,7 @@ like rolling a dice where you can choose the range of numbers.
 4
     \end{Verbatim}
 
-    \subsubsection{2. random.choice (list)}\label{random.choice-list}
+    \subsection{random.choice (list)}\label{random.choice-list}
 
 Want to randomly pick an item from a list? This function does exactly
 that! It's great for picking a random winner or choosing a random
@@ -558,7 +555,7 @@ option.
 Bob
     \end{Verbatim}
 
-    \subsubsection{3. random.random()}\label{random.random}
+    \subsection{random.random()}\label{random.random}
 
 This gives you a random float (decimal number) between 0 and 1. It's
 like rolling a super tiny dice where you always get a number between 0.0
@@ -578,7 +575,7 @@ and 1.0.
 0.43276706790505337
     \end{Verbatim}
 
-    \subsubsection{4. random.shuffle (list)}\label{random.shuffle-list}
+    \subsection{random.shuffle (list)}\label{random.shuffle-list}
 
 Want to mix things up? This function shuffles the items in a list,
 changing the order around randomly. Perfect for shuffling a deck of
@@ -598,10 +595,9 @@ cards or rearranging a list.
 ['Queen', 'Jack', 'King', 'Ace']
     \end{Verbatim}
 
-    \subsubsection{5. Examples}\label{examples}
+    \section{Examples}\label{examples}
 
-\paragraph{5.1. a simple number guessing
-game}\label{a-simple-number-guessing-game}
+\subsection{a simple number guessing game}\label{a-simple-number-guessing-game}
 
 In the following example we will create a simple number guessing game
 using the random module. The computer will pick a random number between
@@ -641,8 +637,7 @@ Your guess is: 5, your guess is higher than the number.
 Oops sorry, The number is 0 better luck next time.
     \end{Verbatim}
 
-    \paragraph{5.2. Examples of using random
-module}\label{examples-of-using-random-module}
+    \subsection{Examples of using random module}\label{examples-of-using-random-module}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{24}{\boxspacing}
@@ -688,8 +683,7 @@ None
 5.151399445618591
     \end{Verbatim}
 
-    \subsubsection{random vs secrets for generating random
-numbers}\label{random-vs-secrets-for-generating-random-numbers}
+    \subsection{random vs secrets for generating random numbers}\label{random-vs-secrets-for-generating-random-numbers}
 
 \emph{secrets} module is used for cryptographic purposes and is more
 secure than random module.\\
